@@ -2096,4 +2096,3 @@ def configureAlarm() {
 	cmds << secureSequence([zwave.configurationV2.configurationSet(parameterNumber: alarmSensitivityParam, size: 1, configurationValue: [configurationValue])],5000)
 	return cmds
 }
-
